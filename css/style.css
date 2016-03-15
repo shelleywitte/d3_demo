@@ -1,34 +1,34 @@
 /* 575 boilerplate style.css */
-.container {
+.container {  /* Outside container/rectangle color */
     background-color: #85bc82;
 }
 
-.innerRect {
+.innerRect {  /* Inner rectangle color */
     fill: #fff;
 }
 
 .axis path,
-.axis line {
+.axis line {  /* Style for axis line */
     fill: none;
     stroke: black;
     stroke-width: 2px;
     shape-rendering: crispEdges;
 }
 
-.axis text {
-    color: #ff0000;
+.axis text {  /* Style for axis text */
+    color: #ff0000;  /* <-- why won't it change to white? */
     font-family: sans-serif;
     font-size: 0.6em;
     font-weight: bold;
 }
 
-.title {
+.title {  /* Style for title text */
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.labels{
+.labels{  /* Style for circle labels text*/
     font-family: sans-serif;
     font-size: 0.9em;
 }
